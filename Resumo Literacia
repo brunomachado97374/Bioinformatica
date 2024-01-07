@@ -1,0 +1,22 @@
+A Bayesian Approach to in Silico Blood-Brain Barrier Penetration Modeling:
+
+Introdução:
+
+A barreira hemato-encefálica (BBB) é uma membrana que separa o sangue circulante e o fluido extracelular do cérebro. Algumas das principais funções desta barreira incluem a proteção do cérebro contra substâncias estranhas no sangue que o podem ferir, proteção contra hormonas e neurotransmissores no resto do corpo e a manutenção de um ambiente constante para o cérebro .
+
+Por conseguinte, a BBB tem características especiais que a tornam quase impenetrável à maioria dos medicamentos. Tem uma permeabilidade selectiva e as moléculas que são geralmente capazes de atravessar são difíceis de identificar. As características da BBB representam um problema para a indústria farmacêutica que não tem um medicamento, pois a maioria não dispõe de um programa de desenvolvimento de fármacos direcionados para a BBB.
+
+A penetração da BBB é um dos fatores-chave que são tidos em conta nos estudos toxicológicos e na conceção de fármacos.
+Além disso, a medição direta da penetração da BBB é possível, mas as experiências
+são muito dispendiosas e demoradas e constituem um obstáculo temporal e financeiro quando se examina um grande número de compostos.
+
+Embora estejam a ficar disponíveis modelos in vitro e resultados de alto rendimento para a BBB estejam a ficar disponíveis, os modelos in vitro não têm sido capazes de reproduzir totalmente as características da BBB in vivo, prejudicando vários programas de desenvolvimento de medicamentos.
+
+A  escassez de dados disponíveis e as limitações das famílias químicas representadas, representam um entrave. Os fatores moleculares que influenciam a capacidade de um composto atravessar a BBB foram descritos através da análise dos dados disponíveis sobre as características da BBB e dados de penetração molecular. Outros estudos (por exemplo, Ooms et al.12) utilizaram modelos estatísticos para inferir as características moleculares que influenciam a penetração na BBB.
+
+
+Métodos de Machine Learning para previsão da penetração na  BBB:
+
+Para o presente estudo, dois modelos de aprendizagem possíveis são as máquinas de vectores de suporte (SVM) e florestas aleatórias (RF). Estes modelos demonstraram ser fiáveis, capazes de encontrar soluções robustas mesmo quando o número de variáveis é grande, e capazes de se adaptar a um vasto leque de situações.
+Tanto as florestas aleatórias como as máquinas de vectores de apoio estão entre
+algoritmos mais utilizados em estudos recentes de seleção virtual e QSAR,e ambos têm sido descritos na literatura para a para a previsão da penetração na BBB.
