@@ -32,6 +32,8 @@ Link: https://tdcommons.ai/single_pred_tasks/adme/#bbb-blood-brain-barrier-marti
 
 Carregamento de dados para análise e adição ao dataset de vários descritores relacionados com o SMILES referentes a cada fármaco, obtendo assim um conjunto de dados com variáveis numéricas. Descrição de dataset e caracterização de dados atribuídos com base em literatura disponibilizada. Vizualição de gráficos exploratórios de caracterísitcas principais dos dados. Etapas de tratamento de dados, nomeadamente tratamento de valores nulos e remoção de valores duplicados. 
 
+Devido ao tempo de cálculo de alguns Descritores, após este passo, o dataset foi guardado num ficheiro csv, para posteriormente ser utilzado no Notebook 2, visando a continuação das próximas etapas do projeto.
+
 #### Secção 2 - Redução de Dimensionalidade
 
 Normalização e filtração de dados, bem como utilização de métodos de redução de dimensionalidade com o objetivo de encontrar o menor conjunto de variáveis capazes de descrever a máxima variabilidade dos dados, diminuindo a quantidade de dados a serem avaliados.
