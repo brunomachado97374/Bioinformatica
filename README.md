@@ -4,13 +4,13 @@
 
 ### Descrição do Dataset
 
-A barreira hemato-encefálica (BBB) representa um componente essencial e complexo do sistema nervoso central, exercendo uma função vital ao separar o sangue circulante do fluido extracelular cerebral. Esta barreira desempenha um papel fundamental na proteção do cérebro, controlando quais substâncias podem entrar ou sair. Uma de suas principais funções é bloquear a maioria dos fármacos estranhos, limitando sua passagem para o tecido cerebral.
+A barreira hemato-encefálica (BBB) representa um componente essencial e complexo do sistema nervoso central, exercendo uma função vital ao separar o sangue circulante do fluido extracelular cerebral. Esta barreira desempenha um papel fundamental na proteção do cérebro, controlando quais substâncias podem entrar ou sair. Uma das suas principais funções é bloquear a maioria dos fármacos estranhos, limitando a sua passagem para o tecido cerebral.
 
 O desafio intrínseco a si associado reside na capacidade seletiva de permitir a entrada de nutrientes essenciais enquanto restringe substâncias prejudiciais. No entanto, essa seletividade também cria um obstáculo significativo no desenvolvimento de fármacos destinados ao tratamento de distúrbios do sistema nervoso central. A capacidade limitada de muitos medicamentos atravessarem a mesma impõe restrições consideráveis à eficácia dos tratamentos disponíveis.
 
 Neste estudo, iremos explorar um conjunto de dados de compostos farmacêuticos. Estes são descritos pela sua fórmula molecular, bem como a sua capacidade de penetrar a barreira hemato-encefálica. Ao analisar múltiplos fármacos, pretendemos obter uma compreensão mais abrangente das interações entre estrutura química e resposta biológica, contribuindo assim para o desenvolvimento de conhecimentos mais robustos.
 
-Desta forma, o foco deste estudo passa por analisar diversos fármacos, percebendo a relação entre suas estruturas moleculares e a sua capacidade de penetrar a BBB.
+Desta forma, o foco deste estudo passa por analisar diversos fármacos, percebendo a relação entre as suas estruturas moleculares e a sua capacidade de penetrar a BBB.
 
 ### Informações do Dataset
 
@@ -30,7 +30,7 @@ Link: https://tdcommons.ai/single_pred_tasks/adme/#bbb-blood-brain-barrier-marti
 
 #### Secção 1 - Exploração do Dataset e Análise de Dados 
 
-Carregamento de dados para análise e adição ao dataset de vários descritores relacionados com o SMILES referentes a cada fármaco, obtendo assim um conjunto de dados com variáveis numéricas. Descrição de dataset e caracterização de dados atribuídos com base em literatura disponibilizada. Vizualição de gráficos exploratórios de caracterísitcas principais dos dados. Etapas de tratamento de dados, nomeadamente tratamento de valores nulos e remoção de valores duplicados. 
+Carregamento de dados para análise e adição ao dataset de vários descritores relacionados com o SMILES referentes a cada fármaco, obtendo assim um conjunto de dados com variáveis numéricas. Descrição de dataset e caracterização de dados atribuídos com base em literatura disponibilizada. Vizualização de gráficos exploratórios de características principais dos dados. Etapas de tratamento de dados, nomeadamente tratamento de valores nulos e remoção de valores duplicados. 
 
 Devido ao tempo de cálculo de alguns Descritores, após este passo, o dataset foi guardado num ficheiro csv, para posteriormente ser utilzado no Notebook 2, visando a continuação das próximas etapas do projeto.
 
